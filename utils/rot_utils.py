@@ -20,6 +20,7 @@ def load_rotations(rotation_choice,rot_root_path='data/rotations'):
 
     rotation_choices = {
         'AA_ICO162_S10': 'R_AA_ICO162_S10_removed_duplicates.npy', # ICO162 for angle axis, step S=10 (#Ref Tab. 8)
+        'gen' : 'generated_rotations.npy',
         'EULER-S=15-DUPLICATES': 'R_EULER_S15_removed_duplicates.npy', # euler angles, range -180,180, step S=15, N=6364 (#10 Tab. 8)
         'EULER-S=15-LIMITED-DUPLICATES': 'R_EULER_limited_S15_removed_duplicates.npy', # euler angles, range -90, 90, step S=15, N=1886 (#11 Tab. 8)
         'EULER-S=10-LIMITED-DUPLICATES': 'R_EULER_limited_S10_removed_duplicates.npy', # euler angles, range -90,90, step S=10, N=6177 (#12 Tab. 8)
